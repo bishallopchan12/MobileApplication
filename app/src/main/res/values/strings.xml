@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyFirstMobileApplication</string>
+    <string name="login_page">login page</string>
+    <string name="user_name">user name</string>
+    <string name="password">password</string>
+    <string name="review_of_image">review of image</string>
+    <string name="login">login</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="there_are_many_variations_of_passages">There are many variations of passages</string>
+</resources>
