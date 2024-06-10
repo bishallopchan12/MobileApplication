@@ -25,4 +25,7 @@
     <string name="my_checkbox">My Checkbox</string>
     <string name="already_have_an_account">Already have an account?</string>
     <string name="already_have_an_account_signin">Already have an account? Signin</string>
+    <string name="signin">SignIn</string>
+    <string name="sign_in">Sign In</string>
+    <string name="already_have_an_account_login">Already have an Account? Login</string>
 </resources>

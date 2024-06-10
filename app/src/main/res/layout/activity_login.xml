@@ -51,6 +51,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:hint="Password"
+        android:drawableEnd="@drawable/vector"
 
         />
     <TextView

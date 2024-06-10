@@ -26,11 +26,12 @@
         android:textStyle="bold"
         android:layout_marginTop="20dp" />
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/there_are_many_variations_of_passages_of_lorem_ipsum_available"
         android:textSize="15sp"
         android:textColor="@color/grey"
+
         android:layout_marginTop="5dp"/>
     <EditText
         android:layout_width="match_parent"
@@ -38,6 +39,7 @@
         android:hint="@string/mobile_number"
         android:layout_marginTop="30dp"
         android:textColor="@color/grey"
+        android:minHeight="48dp"
 
         />
     <EditText
@@ -46,6 +48,7 @@
         android:hint="@string/Password"
         android:layout_marginTop="30dp"
         android:textColor="@color/grey"
+        android:minHeight="48dp"
 
         />
     <EditText
@@ -54,14 +57,14 @@
         android:hint="@string/confirm_password"
         android:layout_marginTop="30dp"
         android:textColor="@color/grey"
-
+        android:minHeight="48dp"
         />
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="I agree to the Terms of service & Privacy Policy"
+        android:text="I agree to the Terms of service &amp; Privacy Policy"
         android:textColor="@color/blue"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="30dp"
         android:textSize="20sp"
         android:checked="false"/>
 
@@ -71,14 +74,33 @@
         android:layout_height="wrap_content"
         android:textSize="20sp"
         android:text="SignUp"
-        android:layout_marginTop="30sp"
+        android:layout_marginTop="20sp"
         android:textColor="@color/white"/>
-    <EditText
+
+    <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/already_have_an_account_signin"
-        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/already_have_an_account"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
         android:textColor="@color/blue"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/signin"
+        android:hint="@string/sign_in"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/blue"
+        android:textStyle="bold" />
+</androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
 
 
 
